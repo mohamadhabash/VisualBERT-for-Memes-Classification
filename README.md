@@ -11,7 +11,7 @@ git clone https://github.com/mohamadhabash/VisualBERT-for-Memes-Classification.g
 pip3 install -r requirements.txt
 ```
 
-3- put your images in `/Data/Images/` and your csv file in `/Data/`. You need to modify the code if do not use a `csv` file. 
+3- put your images in `/Data/Images/` and your csv file in `/Data/`. You need to modify the code if you do not use a `csv` file. 
 
 4- Modify the code to include correct paths to your data. You can also tune hyper-parameters or change different stuff in the code.
 
