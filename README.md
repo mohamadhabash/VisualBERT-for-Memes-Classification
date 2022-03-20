@@ -1,7 +1,7 @@
 # VisualBERT-for-Memes-Classification
 This repo contains VisualBERT implementation using Huggingface and PyTorch-Lightning for memes classification with the use of both text and images.
 
-## Setup
+## How to use
 1- clone the repo.
 ```bash
 git clone https://github.com/mohamadhabash/VisualBERT-for-Memes-Classification.git
@@ -10,3 +10,6 @@ git clone https://github.com/mohamadhabash/VisualBERT-for-Memes-Classification.g
 ```bash
 pip install -r requirements.txt
 ```
+3- put your images in '/Data/Images/' and your csv file in '/Data/'. You need to modify the code if do not use a 'csv' file.
+4- Modify the code to include correct paths to your data. You can also tune hyper-parameters or change different stuff in the code.
+5- run 'python visualbert.py' in your terminal to start training the model.
