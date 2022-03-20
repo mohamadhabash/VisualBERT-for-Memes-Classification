@@ -14,7 +14,6 @@ def convert_to_BGR(image_file_names, images_path):
             img = plt.imread(f'{images_path}/{image}')
             img = cv2.cvtColor(img, cv2.COLOR_RGB2BGR)
             bgr_images.append(img)
-
         except FileNotFoundError:
             continue
     
