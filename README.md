@@ -20,7 +20,7 @@ pip3 install -r requirements.txt
 ```bash
 python3 visualbert.py
 ```
-6- Alternatively, you can just use the notebooks alone without other files. They can be found under `/notebooks`.
+6- Alternatively, you can just use the notebooks alone without other files. They can be found under `/notebooks`. I recommend using `pickle` to save the visual embeddings after extracting them using `Visual_Embeddings_for_VisualBERT_Using_Detectron2.ipynb`, then use the `pkl` file in `VisualBERT.ipynb`.
 
 ## References
 1- <a href="https://github.com/uclanlp/visualbert">VisualBERT Repository</a>
