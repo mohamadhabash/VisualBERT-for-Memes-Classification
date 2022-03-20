@@ -1,6 +1,6 @@
 # VisualBERT-for-Memes-Classification
 ## Overview
-This repo contains VisualBERT implementation using Huggingface and PyTorch-Lightning for memes classification with the use of both text and images. VisualBERT consists of a stack of transformer layers similar to BERT architecture to prepare embeddings for image-text pairs. BERT tokenizer is used as a text encoder. For images, a custom pre-trained object detector must be used to extract regions and bounding boxes, which will be fed to the model as visual embeddings. `Detectron2` is used in this repo to generate the visual embeddings using `MaskRCNN+ResNet-101+FPN` model checkpoint.
+This repo contains VisualBERT implementation using Huggingface and PyTorch-Lightning for memes classification with the use of both text and images. VisualBERT consists of a stack of transformer layers similar to BERT architecture to prepare embeddings for image-text pairs. BERT tokenizer is used as a text encoder. For images, a custom pre-trained object detector must be used to extract regions and bounding boxes, which will be fed to the model as visual embeddings. `Detectron2` is used in this repo to generate the visual embeddings using `MaskRCNN+ResNet-101+FPN` model checkpoint. I have never seen a Huggingface VisualBERT implementation before, so I hope this repo is the first :).
 
 ## How to use
 1- clone the repo.
