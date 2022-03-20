@@ -16,3 +16,5 @@ pip3 install -r requirements.txt
 4- Modify the code to include correct paths to your data. You can also tune hyper-parameters or change different stuff in the code.
 
 5- run `python3 visualbert.py` in your terminal to start training the model.
+
+6- You can also use the notebooks alone without other files. They can be found under `/notebooks`.
