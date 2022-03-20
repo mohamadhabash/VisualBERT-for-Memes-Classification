@@ -20,3 +20,7 @@ pip3 install -r requirements.txt
 python3 visualbert.py
 ```
 6- You can also use the notebooks alone without other files. They can be found under `/notebooks`.
+
+## References
+1- <a href="https://github.com/uclanlp/visualbert">VisualBERT Repository</a>
+2- <a href="https://huggingface.co/docs/transformers/model_doc/visual_bert">Huggingface VisualBERT Documentation</a>
