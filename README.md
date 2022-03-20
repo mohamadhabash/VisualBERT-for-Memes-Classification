@@ -20,7 +20,7 @@ pip3 install -r requirements.txt
 ```bash
 python3 visualbert.py
 ```
-6- You can also use the notebooks alone without other files. They can be found under `/notebooks`.
+6- Alternatively, you can just use the notebooks alone without other files. They can be found under `/notebooks`.
 
 ## References
 1- <a href="https://github.com/uclanlp/visualbert">VisualBERT Repository</a>
