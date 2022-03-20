@@ -23,4 +23,11 @@ python3 visualbert.py
 
 ## References
 1- <a href="https://github.com/uclanlp/visualbert">VisualBERT Repository</a>
+
 2- <a href="https://huggingface.co/docs/transformers/model_doc/visual_bert">Huggingface VisualBERT Documentation</a>
+
+3- <a href="https://github.com/PyTorchLightning/pytorch-lightning">PyTorch Lightning</a>
+
+4- <a href="https://github.com/pytorch/pytorch">PyTorch</a>
+
+5- <a href="https://github.com/facebookresearch/detectron2">Detectron2</a>
