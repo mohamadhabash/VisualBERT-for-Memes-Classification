@@ -3,7 +3,10 @@ This repo contains VisualBERT implementation using Huggingface and PyTorch-Light
 
 ## Setup
 1- clone the repo.
-2- install the requirements 
+```bash
+git clone https://github.com/mohamadhabash/VisualBERT-for-Memes-Classification.git
+```
+2- cd to the project and install the requirements.
 ```bash
 pip install -r requirements.txt
 ```
