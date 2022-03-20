@@ -8,8 +8,11 @@ git clone https://github.com/mohamadhabash/VisualBERT-for-Memes-Classification.g
 ```
 2- cd to the project and install the requirements.
 ```bash
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 ```
-3- put your images in '/Data/Images/' and your csv file in '/Data/'. You need to modify the code if do not use a 'csv' file.
+
+3- put your images in `/Data/Images/` and your csv file in `/Data/`. You need to modify the code if do not use a `csv` file. 
+
 4- Modify the code to include correct paths to your data. You can also tune hyper-parameters or change different stuff in the code.
-5- run 'python visualbert.py' in your terminal to start training the model.
+
+5- run `python3 visualbert.py` in your terminal to start training the model.
