@@ -5,7 +5,7 @@ This repo contains pre-trained VisualBERT implementation using Huggingface and P
 I have never seen a Huggingface VisualBERT implementation before, so I hope this repo is the first :).
 
 ## How to use
-1- clone the repo.
+1- Clone the repo.
 ```bash
 git clone https://github.com/mohamadhabash/VisualBERT-for-Memes-Classification.git
 ```
@@ -14,11 +14,11 @@ git clone https://github.com/mohamadhabash/VisualBERT-for-Memes-Classification.g
 pip3 install -r requirements.txt
 ```
 
-3- put your images in `/Data/Images/` and your csv file in `/Data/`. You need to modify the code if you do not use a `csv` file. 
+3- Put your images in `/Data/Images/` and your csv file in `/Data/`. You need to modify the code if you do not use a `csv` file. 
 
 4- Modify the code to include correct paths to your data. You can also tune hyper-parameters or change different stuff in the code.
 
-5- run `visualbert.py` to start training the model.
+5- Run `visualbert.py` to start training the model.
 ```bash
 python3 visualbert.py
 ```
